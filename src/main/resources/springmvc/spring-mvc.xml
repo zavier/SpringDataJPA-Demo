@@ -13,7 +13,7 @@
        http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
 
 	<!-- 根目录跳转到home页面 -->
-	<mvc:view-controller path="/" view-name="redirect:/index" />
+	<mvc:view-controller path="/" view-name="login" />
 
 	<!-- 开启SpringMVC注解 -->
 	<mvc:annotation-driven />
